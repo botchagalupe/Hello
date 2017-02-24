@@ -2,7 +2,7 @@ require 'sinatra'
 
 class HelloWorld < Sinatra::Base
   get '/' do
-    "Hello, big old goofy world!"
+    "Hello, World!"
   end
   get '/:name' do
       "Hello, #{params[:name]}!"
